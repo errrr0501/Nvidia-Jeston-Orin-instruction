@@ -35,7 +35,7 @@ deb https://repo.download.nvidia.com/jeston/<platform> <release vesion> main
 ```
 P.S. #<platform> should be t186, t194...etc. please check [`Tegra wiki`](https://en.wikipedia.org/wiki/Tegra)
 
-#Build isaac ros apriltag
+# Build isaac ros apriltag
 
 Install LFS
 ```shell
@@ -79,7 +79,7 @@ $ sudo dpkg -i nvcv-dev-0.5.0_beta_DP-cuda12-aarch64-linux.deb
 $ colcon build --symlink-install
 ```
 
-#Test with example
+# Test with example
 
 Follow the instruction in `Run Launch File` to test.[Isaac ROS AprilTag](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_apriltag/isaac_ros_apriltag/index.html#quickstart). 
 
