@@ -65,7 +65,6 @@ $ cd ..
 ```
 Modify CMakeList.txt in `isaac_ros_nitros`
 Add `find_package(negotiated)`
-Build packages
 
 Install [`nvcv`] https://github.com/CVCUDA/CV-CUDA/releases
 ```shell
@@ -74,7 +73,7 @@ $ wget https://github.com/CVCUDA/CV-CUDA/releases/download/v0.5.0-beta/nvcv-dev-
 $ sudo dpkg -i nvcv-lib-0.5.0_beta_DP-cuda12-aarch64-linux.deb
 $ sudo dpkg -i nvcv-dev-0.5.0_beta_DP-cuda12-aarch64-linux.deb
 ```
-
+Build packages 
 ```shell
 $ colcon build --symlink-install
 ```
