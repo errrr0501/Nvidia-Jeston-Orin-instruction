@@ -4,6 +4,7 @@ The [`JetPack SDK`](https://developer.nvidia.com/embedded/jetpack-sdk-62) upgrad
 
 
 ## Set up
+
 Frist Check your JetPack version and makesure it upgrade to the version you want to use.
 ```shell
 $ cat /etc/nv_tegra_release
@@ -79,6 +80,7 @@ $ colcon build --symlink-install
 ```
 
 #Test with example
+
 Follow the instruction in `Run Launch File` to test.[Isaac ROS AprilTag](https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_apriltag/isaac_ros_apriltag/index.html#quickstart). 
 
 
