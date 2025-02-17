@@ -42,6 +42,12 @@ Install LFS
 $ sudo apt install git-lfs
 $ git lfs install --skip-repo
 ```
+
+Install vpi
+```shell
+$ sudo apt install vpi3-dev
+```
+
 Clone package isaac ros apriltage and depend packages, here using release-3.2.
 ```shell
 $ mkdir -p <your_workspace>/src
